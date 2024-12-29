@@ -1,0 +1,170 @@
+/* Dashboard Container */
+.dashboard-container {
+    font-family: 'Arial', sans-serif;
+    margin: 20px auto;
+    padding: 30px;
+    background-color: #faf3e0;  /* Soft warm cream */
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    max-width: 1200px;
+}
+/* Best Seller Image Styling */
+.best-seller-image {
+    width: 120px; /* Adjust width to your preference */
+    height: auto; /* Keep aspect ratio */
+    border-radius: 12px; /* Slightly rounded corners */
+    border: 3px solid #fff; /* White border around the image */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Soft shadow for depth */
+    transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+}
+
+.best-seller-image:hover {
+    transform: scale(1.05); /* Slightly zooms in on hover */
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3); /* Darker shadow for hover */
+    border-color: #FF5733; /* Change border color on hover to a cinnabon-inspired color */
+}
+
+h1 {
+    text-align: center;
+    color: #3c2f2f;  /* Warm brownish color */
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+/* Statistics Section */
+.statistics-container {
+    margin-bottom: 40px;
+    padding: 20px;
+    background-color: #ffffff;  /* Soft white */
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.statistics-item {
+    margin-bottom: 20px;
+}
+
+.stat-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #4f4a48;  /* Cozy dark grey */
+    margin-bottom: 10px;
+}
+
+.stat-content {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+.product-stat {
+    background-color: #f0e1d6;  /* Soft warm beige */
+    border: 1px solid #d3bfa7;  /* Soft beige border */
+    padding: 12px 18px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-size: 14px;
+    color: #3c2f2f;  /* Dark brown text */
+}
+
+.product-stat:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+}
+
+.stat-count {
+    color: #a29991;  /* Soft muted grey */
+    font-size: 13px;
+    margin-left: 10px;
+}
+
+/* Table Section */
+.table-container {
+    margin-bottom: 40px;
+}
+
+.inventory-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.inventory-table th, .inventory-table td {
+    padding: 15px;
+    text-align: center;
+    border: 1px solid #e2cfc1;  /* Soft peach border */
+    font-size: 14px;
+    color: #3c2f2f;  /* Warm brown text */
+}
+
+.inventory-table th {
+    background-color: #f8f1e1;  /* Soft light peach background */
+    font-weight: bold;
+}
+
+.inventory-table tbody tr:hover {
+    background-color: #f6e7d2;  /* Soft peachy hover effect */
+}
+
+.inventory-table td .count {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.count-btn {
+    background-color: #d8a58d;  /* Warm soft brown */
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    border-radius: 6px;
+    font-size: 16px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    margin: 0 5px;
+}
+
+.count-btn:hover {
+    background-color: #c87a6e;  /* Slightly darker warm brown */
+    transform: scale(1.1);
+}
+
+.count-btn:active {
+    background-color: #b66b5d;  /* Darker brown on click */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .dashboard-container {
+        padding: 15px;
+        margin: 10px;
+    }
+
+    h1 {
+        font-size: 28px;
+        margin-bottom: 20px;
+    }
+
+    .statistics-container, .table-container {
+        margin-bottom: 20px;
+    }
+
+    .product-stat {
+        padding: 10px 15px;
+    }
+
+    .count-btn {
+        padding: 6px 12px;
+        font-size: 14px;
+    }
+
+    .inventory-table th, .inventory-table td {
+        padding: 12px;
+        font-size: 12px;
+    }
+}

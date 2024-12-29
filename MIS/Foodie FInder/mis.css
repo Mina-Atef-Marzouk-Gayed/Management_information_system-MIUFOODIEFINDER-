@@ -1,0 +1,360 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f5f7;
+    color: #2c3e50;
+/* Gradient Background */
+    background: linear-gradient(to right, #a3b7bc, #586473); /* Light blue to dark blue */
+
+
+}
+
+/* Dashboard Container */
+.dashboard {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #ffffff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+/* Headings */
+h1, h2 {
+    text-align: center;
+    color: #2980b9;
+    margin-bottom: 20px;
+}
+
+/* Stats Container */
+.stats-container {
+    background-color: #f8f9fa;
+    padding: 30px 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: 1200px;
+}
+
+/* Stats Grid */
+.stats {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+/* Individual Stat Card */
+.stat {
+    text-align: center;
+    background-color: #e0f7fa;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.stat h3 {
+    font-size: 18px;
+    color: #00796b;
+    margin-bottom: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.stat span {
+    font-size: 24px;
+    font-weight: bold;
+    color: #004d40;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Vendor List */
+.vendor-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-size: 16px;
+    color: #004d40;
+}
+
+.vendor-list li {
+    padding: 5px 0;
+    border-bottom: 1px solid #b2dfdb;
+}
+
+.vendor-list li:last-child {
+    border-bottom: none;
+}
+
+/* Buttons */
+button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: transform 0.2s, background-color 0.3s;
+    margin: 5px;
+}
+
+button:hover {
+    transform: scale(1.05);
+}
+
+/* Specific Button Styles */
+.edit-btn {
+    background-color: #28a745;
+    color: white;
+}
+
+.edit-btn:hover {
+    background-color: #218838;
+}
+
+.delete-btn {
+    background-color: #dc3545;
+    color: white;
+}
+
+.delete-btn:hover {
+    background-color: #c82333;
+}
+
+.add-btn {
+    display: block;
+    margin: 20px auto;
+    background-color: #007bff;
+    color: white;
+}
+
+.add-btn:hover {
+    background-color: #0056b3;
+}
+
+.block-btn {
+    background-color: #ffc107;
+    color: white;
+}
+
+.block-btn:hover {
+    background-color: #e0a800;
+}
+
+.unblock-btn {
+    background-color: #17a2b8;
+    color: white;
+}
+
+.unblock-btn:hover {
+    background-color: #138496;
+}
+
+/* Hover Effect for Stats */
+.stat:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Navbar styles */
+.navbar {
+    background-color: #007bff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar li {
+    display: inline;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.navbar a:hover {
+    background-color: #0056b3;
+}
+
+.navbar .active {
+    background-color: #0056b3;
+    font-weight: bold;
+}
+
+/* Active Section */
+.section {
+    display: none;
+}
+
+.active-section {
+    display: block;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .stats {
+        grid-template-columns: 1fr;
+    }
+
+    .stat {
+        padding: 15px;
+    }
+
+    .stat h3 {
+        font-size: 16px;
+    }
+
+    .stat span {
+        font-size: 20px;
+    }
+
+    .navbar ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navbar a {
+        margin-bottom: 10px;
+    }
+}
+/* Table Styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 14px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* Table Header */
+th {
+    background-color: #65939d;
+    color: white;
+    padding: 12px;
+    text-align: left;
+    font-size: 16px;
+}
+
+/* Table Body */
+td {
+    padding: 12px;
+    text-align: left;
+    border-top: 1px solid #ddd;
+}
+
+/* Table Row Hover Effect */
+tr:hover {
+    background-color: #f9f9f9;
+    cursor: pointer;
+}
+
+/* Button Group in Table */
+button {
+    padding: 8px 12px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    margin-right: 5px;
+}
+
+/* Button Hover Effect */
+button:hover {
+    transform: scale(1.05);
+}
+
+/* Specific Button Styles */
+.edit-btn {
+    background-color: #28a745;
+    color: white;
+}
+
+.edit-btn:hover {
+    background-color: #218838;
+}
+
+.block-btn {
+    background-color: #ffc107;
+    color: white;
+}
+
+.block-btn:hover {
+    background-color: #e0a800;
+}
+
+.delete-btn {
+    background-color: #dc3545;
+    color: white;
+}
+
+.delete-btn:hover {
+    background-color: #c82333;
+}
+
+.unblock-btn {
+    background-color: #17a2b8;
+    color: white;
+}
+
+.unblock-btn:hover {
+    background-color: #138496;
+}
+
+/* Add Student Button */
+.add-btn {
+    display: inline-block;
+    background-color: #007bff;
+    color: white;
+    padding: 12px 20px;
+    font-size: 14px;
+    text-align: center;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.add-btn:hover {
+    background-color: #0056b3;
+}
+
+/* Spacing between Table Rows */
+tbody tr {
+    transition: transform 0.3s ease-in-out;
+}
+
+tbody tr + tr {
+    margin-top: 10px; /* Adds space between rows */
+}
+
+/* Responsiveness */
+@media (max-width: 768px) {
+    table {
+        font-size: 12px;
+    }
+
+    th, td {
+        padding: 10px;
+    }
+
+    button {
+        padding: 6px 10px;
+        font-size: 12px;
+    }
+}
