@@ -21,8 +21,6 @@ MIU Foodie Finder addresses common pain points like long queues, inconsistent me
 
 - HTML5 / CSS3 / JavaScript
 - Responsive Web Design
-- [Insert framework or library here, if applicable — e.g., React, Tailwind CSS]
-
 ---
 
 ## 📂 Features
@@ -78,6 +76,5 @@ MIU Foodie Finder addresses common pain points like long queues, inconsistent me
 - Real delivery bot support
 - Full analytics dashboard
 
----
 
 
