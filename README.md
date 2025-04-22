@@ -55,17 +55,25 @@ MIU Foodie Finder addresses common pain points like long queues, inconsistent me
 
 ## 📸 Screenshots
 
-### 🖥️ Student Dashboard
+### 🖥️ landing page 
 
-![Student Dashboard](images/student-dashboard.png)
+![1](images/1.png)
+![2](images/2.png)
+![3](images/3.png)
 
-### 📱 Menu Preview with 3D Model
+### 📱 Menu Preview
+![Menu](images/Menu1.png)
+![Menu](images/Menu2.png)
+![Menu](images/Menu3.png)
+![Menu](images/Menu4.png)
 
-![3D Meal Preview](images/3d-meal-preview.png)
+### 📊 Admin Panel
 
-### 📊 Admin Panel UI
+![Admin Panel](images/Admin.png)
+### 📊 vendor Panel
 
-![Admin Panel](images/admin-panel.png)
+![vendor Panel](images/vendor.png)
+![vendor](images/vendor2.png)
 
 ---
 
