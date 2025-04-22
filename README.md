@@ -13,45 +13,9 @@ MIU Foodie Finder addresses common pain points like long queues, inconsistent me
 - Smart search and filtering
 - Pickup and delivery options
 - Multi-method payments (InstaPay, Cash, Credit Card)
-- 3D meal previews (experimental)
 
 ---
 
-## 🧑‍💻 Tech Stack
-
-- HTML5 / CSS3 / JavaScript
-- Responsive Web Design
----
-
-## 📂 Features
-
-### 🎯 Student Dashboard
-- View vendor menus
-- Filter and search meals
-- Track order status
-- Rate and report issues
-
-### 🍽️ Vendor Dashboard (UI only)
-- Manage menus and prices
-- Update availability
-- View order traffic
-
-### 🧠 Admin Dashboard (UI only)
-- Monitor platform usage
-- Handle user feedback
-- Manage student/vendor activity
-
----
-
-## 🛒 Key Functionalities
-
-- 🔎 Search & Compare Meals
-- 💳 Multiple Payment Options
-- 🔔 Real-time Notifications
-- 🍱 3D Meal Preview (experimental)
-- 🚚 Pickup & Delivery Support
-
----
 
 ## 📸 Screenshots
 
@@ -77,12 +41,7 @@ MIU Foodie Finder addresses common pain points like long queues, inconsistent me
 
 ---
 
-## 🔮 Future Enhancements
 
-- Backend API integration
-- AI meal recommendations
-- Real delivery bot support
-- Full analytics dashboard
 
 
 
