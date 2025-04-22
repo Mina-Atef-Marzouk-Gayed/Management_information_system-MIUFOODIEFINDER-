@@ -37,7 +37,7 @@ MIU Foodie Finder addresses common pain points like long queues, inconsistent me
 ### 📊 vendor Panel
 
 ![vendor Panel](images/vendor.png)
-![vendor](images/vendor2.png)
+![vendor](images/vendo2.png)
 
 ---
 
