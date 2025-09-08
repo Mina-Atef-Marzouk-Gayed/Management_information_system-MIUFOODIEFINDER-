@@ -5,6 +5,7 @@ A smart and user-centric digital menu and food ordering platform designed for MI
 ---
 
 ## 🚀 Project Overview
+Frontend Only 
 
 MIU Foodie Finder addresses common pain points like long queues, inconsistent menus, and slow service. Our solution includes:
 
